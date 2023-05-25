@@ -1,0 +1,38 @@
+
+{"intents": [
+        {"tag": "begruessung",
+         "patterns": ["Hi", "Hallo", "Guten Tag", "Guten Mittag", "Guten Abend", "Servus", "Moin", "Habe die Ehre", "Grüezi"],
+         "responses": ["Hallo", "Hallo, schön, dass du da bist", "Ich freue mich über deinen Besuch"],
+         "context_set": ""
+        },
+        {"tag": "gesundheit",
+         "patterns": ["Wie geht es dir?", "Wie gehts?", "Wie geht's?", "Alles gut?"],
+         "responses": ["Mir geht es wunderbar", "Mir geht es gut"],
+         "context_set": ""
+        },
+        {"tag": "verabschiedung",
+         "patterns": ["Tschüss", "Ciao", "Hau rein", "Bis dann", "Auf Wiedersehen", "bye"],
+         "responses": ["Tschüss, bis zum nächsten Mal", "Auf Wiedersehen", "Bis bald"]
+        },
+        {"tag": "danke",
+         "patterns": ["Danke", "super", "das war hilfreich"],
+         "responses": ["Ich freue mich, dass ich helfen konnte", "gerne, kein Problem"]
+        },
+        {"tag": "dauer",
+         "patterns": ["Wie lange dauert die Technikerweiterbildung?", "Wie lange dauert der Techniker?", "Wie lange dauert das?", "Wie lange braucht das?", "Dauer", "Zeit" ],
+         "responses": ["Die Weiterbildung zum staatlich geprüften Techniker dauert in Vollzeit 2, in Teilzeit 4 Jahre"]
+        },
+        {"tag": "fach",
+         "patterns": ["Wie viele Fächer gibt es?", "Wie heißen die Fächer?", "Was sind die Fächer?" ],
+         "responses": ["In beiden Jahren gibt es die Fächer Softwareentwicklung, Datenbanken, Netze, Betriebliche Kommunikation, Betriebswirtschaftslehre, Englisch und Computersysteme. Nur im ersten Jahr gibt es die Fächer Mathe, Microcontroller und Wissenschaftliches Arbeiten. Nur im zweiten Jahr gibt es die Fächer KI und Ausbildereignungsprüfung."]
+        },
+        {"tag": "voraussetzung",
+        "patterns": ["Was sind die Voraussetzungen?", "Was muss ich mitbringen?", "Was muss ich können?", "Was muss erfüllt sein?", "Was sind die Zugangsvoraussetzungen?"],
+        "responses": ["Hauptschulabschluss, Berufsschulabschluss oder Abschluss in einem Ausbildungsberuf der Informationstechnik"]
+        },
+        {"tag": "witz",
+         "patterns": ["Erzähle einen Witz", "Witz", "Erzähle etwas lustiges", "Sag etwas lustiges", "Mach einen Spaß", "Sag einen Witz"],
+         "responses": ["Was isst ein Informatiker abends beim Fernsehen? – Mikrochips", "Es gibt 10 Arten von Menschen in der Welt. Die einen verstehen das Binärsystem und die anderen nicht."]
+        }
+]
+}
